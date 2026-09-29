@@ -1,0 +1,3 @@
+#!/bin/sh
+# Runs .githooks/pre_commit.py — see that file for what is checked.
+exec python "$(git rev-parse --show-toplevel)/.githooks/pre_commit.py"

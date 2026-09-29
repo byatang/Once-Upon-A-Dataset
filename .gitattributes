@@ -1,0 +1,2 @@
+# Git hook scripts must keep LF line endings or sh fails on Windows checkouts.
+.githooks/pre-commit text eol=lf
