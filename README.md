@@ -25,6 +25,7 @@ your-project/
 ├── requirements.txt
 ├── README.md
 ├── CHANGELOG.md
+├── LICENSE                   ← MIT License (code only)
 ├── .githooks/                ← Git pre-commit check that blocks large, data, and secret files
 ├── pages/
 │   ├── 1_Stories.py          ← Page 2: Five character story arcs
@@ -191,4 +192,5 @@ The app uses a consistent dark editorial aesthetic across all pages, defined in 
 
 ## License
 
-Data is U.S. government public domain. Application code is available for educational and research use.
+- **Code:** [MIT License](LICENSE). You're free to use, modify and share it, including commercially, as long as the copyright notice is kept.
+- **Data:** the HMDA data is U.S. government public domain (see Data Citation above). It isn't included in this repository.
