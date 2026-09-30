@@ -64,7 +64,7 @@ your-project/
 ### System requirements
 
 - **Python** 3.11 or newer
-- **Memory:** 16 GB RAM recommended. The app aggregates all ~64 million HMDA records into memory on first load, which takes roughly 30–60 seconds. After that the results are cached and pages load instantly.
+- **Memory:** 16 GB RAM recommended. The app aggregates all 64 million HMDA records into memory on first load, which takes roughly 30–60 seconds. After that the results are cached and pages load instantly.
 
 ### 1. Clone or download the project
 
@@ -149,7 +149,7 @@ df.to_parquet('hmda_master.parquet', index=False)
 
 ## A Note on 2012 Data
 
-The CFPB's historic HMDA bulk dataset does not include 2012 in the same standardized format as the other years. This is a known, documented limitation of the official data release — not a processing error. External sources (Mortgage Bankers Association) confirm that 2012 was approximately the peak refinancing year of the post-crisis period, with ~$2.56 trillion in total originations, which is consistent with the trend the data shows across 2011 and 2013.
+The CFPB's historic HMDA bulk dataset does not include 2012 in the same standardized format as the other years. This is a known, documented limitation of the official data release — not a processing error. External sources (Mortgage Bankers Association) confirm that 2012 was approximately the peak refinancing year of the post-crisis period, with $2.56 trillion in total originations, which is consistent with the trend the data shows across 2011 and 2013.
 
 ---
 
