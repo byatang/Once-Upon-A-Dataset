@@ -20,7 +20,7 @@
   - `.githooks/pre-commit` is a shell wrapper that runs `.githooks/pre_commit.py`. Enable per clone with `git config core.hooksPath .githooks`.
   - `.gitattributes` keeps the hook script's LF line endings so it runs on Windows checkouts.
 - **Git repository initialized** on branch `main`, with the pre-commit check enabled.
-- **`LICENSE`: MIT License** (copyright Once Upon a Dataset, 2026: the project group) for the application code. The README's License section now covers MIT for code and public domain for the HMDA data, replacing the earlier "educational and research use" wording.
+- **`LICENSE`: MIT License** (copyright Once Upon a Dataset, 2026) for the application code. The README's License section now covers MIT for code and public domain for the HMDA data, replacing the earlier "educational and research use" wording.
 
 ### Changed
 - **Replaced deprecated `use_container_width=True` with `width='stretch'`** in all 20 `st.plotly_chart` / `st.dataframe` calls (`Home.py` ×6, `pages/1_Stories.py` ×10, `pages/2_Compare.py` ×1, `pages/3_Explore.py` ×3). Streamlit had scheduled the old argument for removal after 2025-12-31.
